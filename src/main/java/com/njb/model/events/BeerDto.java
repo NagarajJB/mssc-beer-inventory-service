@@ -1,4 +1,4 @@
-package com.njb.common.events;
+package com.njb.model.events;
 
 import java.io.Serializable;
 import java.math.BigDecimal;

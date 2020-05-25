@@ -1,4 +1,4 @@
-package com.njb.common.events;
+package com.njb.model.events;
 
 import lombok.NoArgsConstructor;
 

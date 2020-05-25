@@ -2,8 +2,8 @@ package com.njb.msscbeerinventoryservice.web.mappers;
 
 import org.mapstruct.Mapper;
 
+import com.njb.model.BeerInventoryDto;
 import com.njb.msscbeerinventoryservice.domain.BeerInventory;
-import com.njb.msscbeerinventoryservice.web.model.BeerInventoryDto;
 
 @Mapper(uses = {DateMapper.class})
 public interface BeerInventoryMapper {

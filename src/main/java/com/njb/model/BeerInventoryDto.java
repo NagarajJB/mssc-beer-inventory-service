@@ -1,4 +1,4 @@
-package com.njb.msscbeerinventoryservice.web.model;
+package com.njb.model;
 
 import java.time.OffsetDateTime;
 import java.util.UUID;

@@ -3,7 +3,7 @@ package com.njb.msscbeerinventoryservice.services;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
 
-import com.njb.common.events.NewInventoryEvent;
+import com.njb.model.events.NewInventoryEvent;
 import com.njb.msscbeerinventoryservice.config.JmsConfig;
 import com.njb.msscbeerinventoryservice.domain.BeerInventory;
 import com.njb.msscbeerinventoryservice.repositories.BeerInventoryRepository;
