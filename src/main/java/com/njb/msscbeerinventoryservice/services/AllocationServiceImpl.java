@@ -36,10 +36,12 @@ public class AllocationServiceImpl implements AllocationService {
 					+ (beerOrderLine.getQuantityAllocated() != null ? beerOrderLine.getQuantityAllocated() : 0));
 		});
 
-		return null;
+		log.debug("Total Ordered: " + totalOrdered.get() + " Total Allocated: " + totalAllocated.get());
+
+		return totalOrdered.get() == totalAllocated.get();
 	}
 
-	//Should we really loop through inventory by upc or shouldnt we group?
+	// Should we really loop through inventory by upc or shouldnt we group?
 	private void allocateBeerOrderLine(BeerOrderLineDto beerOrderLine) {
 		List<BeerInventory> beerInventoryList = beerInventoryRepository.findAllByUpc(beerOrderLine.getUpc());
 
