@@ -6,13 +6,13 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.2.7.RELEASE</version>
+		<version>2.3.0.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.njb</groupId>
 	<artifactId>mssc-beer-inventory-service</artifactId>
 	<version>1</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>mssc-beer-inventory-service</name>
 	<description>mssc-beer-inventory-service</description>
 
@@ -140,10 +140,6 @@
 
 	<build>
 		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
